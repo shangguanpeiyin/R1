@@ -20,6 +20,7 @@ int main(void)
 	Tim3_Init();
 	Tim2_Init();
 
+	// a lot of codes in here
 	CAN_InitSendQueue();
 	param_Init();
 
