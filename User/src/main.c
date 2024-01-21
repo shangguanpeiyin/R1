@@ -19,7 +19,8 @@ int main(void)
 	CAN2_Init();
 	Tim3_Init();
 	Tim2_Init();
-	int i = 1;
+	int K = 1;
+	int j = 2;
 	// a lot of codes in here
 	CAN_InitSendQueue();
 	param_Init();
